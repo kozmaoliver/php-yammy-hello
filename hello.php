@@ -1,10 +1,11 @@
 <?php
 
-namespace Yammy/Hello;
+namespace Yammy\Hello;
 
 class Hello {
-  public static function hello() {
-    return 'Hello';
-  }
+   public static function hello(): string
+   {
+       return 'Hello';
+   }
 }
 
